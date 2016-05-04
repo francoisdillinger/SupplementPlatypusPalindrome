@@ -18,7 +18,7 @@ export default class HomeViewControl extends BaseViewControl {
         if(input == null || input == ''){
             alert('You need to type a word in order to reverse it!');
         }
-        // If the value is valid it will run this code instead
+        // If the value is valid it will run this code instead.
         else{
             // This navigates to the second view
             this.navigator.navigate(ReverseViewControl,{
